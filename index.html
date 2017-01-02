@@ -18,9 +18,57 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <h1>Hello, world!</h1>
-      <p>lkhdsflkh lhsd kjfh lksh flsdhf lkjshlkfh silueh flksejhn flkjhselkfh slkej bnfm,senb fkljhes ilfhslekj fbkjb fekjleh </p>
+
+    <div class="container"> <!-- Container zentriert den Inhalt und gibt Margins rechts und links, die sich beim Resize dynamisch ändern -->
+
+      <div class="row"> <!-- Row macht den Code lesbarer -->
+        <!-- col-xs-* ab 0px    - Telefone
+             col-sm-* ab 768px  - Tablet
+             col-md-* ab 992px  - Notebook
+             col-lg-* ab 1200px - Desktop  -->
+        <div class="col-md-12"> <!-- 12 (von 12) Spalten spannendes div -->
+          <h1>Hier ist die 12 Spalten breite Überschrift</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Hier ist eine 6 Spalten breite Überschrift</h2>
+          <p>..mit ein wenig mehr Text, damit man den Umbruch auch erkennen kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann</p>
+        </div>
+        <div class="col-md-6 hidden-sm hidden-xs">
+          <h2>Hier ist eine 6 Spalten Bild</h2>
+          <img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Bootstrap-3.1.1-screenshot-jumbotron-example.png/1200px-Bootstrap-3.1.1-screenshot-jumbotron-example.png">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-0">
+          <h2>Alpha - Hier ist eine 4 Spalten breite Überschrift</h2>
+          <p>..mit ein wenig mehr Text, damit man den Umbruch auch erkennen kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann</p>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <h2>Bravo - Hier ist eine 4 Spalten breite Überschrift</h2>
+          <p>..mit ein wenig mehr Text, damit man den Umbruch auch erkennen kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann</p>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <h2>Charly - Hier ist eine 4 Spalten breite Überschrift</h2>
+          <p>..mit ein wenig mehr Text, damit man den Umbruch auch erkennen kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann kann</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+      <h1>Div Class Container Fluid</h1>
+      <p>Container Fluid nimmt die gesamte Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite Seitenbreite </p>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <h1>Div Class Footer</h1>
+        <p>Footer macht was?</p>
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
